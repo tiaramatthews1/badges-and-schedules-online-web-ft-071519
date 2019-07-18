@@ -11,7 +11,6 @@ end
 def assign_rooms(attendees)
   room_assignments.each_with_index.map {|attendees, index|} "Hello #{attendees}! You'll be assigned to room #{index +1}!"
   puts "Hello, #{attendees}! you'll be assigned to room #{room_assignments}"
-  end
 end
 
 def printer(attendees)
