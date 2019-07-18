@@ -1,16 +1,16 @@
 # Write your code here.
 
-def badge_maker(name)
- return "Hello, my name is #{name}."
+def badge_maker(attendees)
+ return "Hello, my name is #{attendees}."
 end
 
-def batch_badge_creator(names)
-  names.collect {|names| badge_maker(names)}
+def batch_badge_creator(attendees)
+  names.collect {|names| badge_maker(attendees)}
 end
 
-def assign_rooms(names)
-  room_assignments.each_with_index.map {|attendees, index|} "Hello #{names}! You'll be assigned to room #{index +1}!"
-  puts "Hello, #{names}! you'll be assigned to room #{room_assignments}"
+def assign_rooms(attendees)
+  room_assignments.each_with_index.map {|attendees, index|} "Hello #{attendees}! You'll be assigned to room #{index +1}!"
+  puts "Hello, #{attendees}! you'll be assigned to room #{room_assignments}"
   end
 end
 
